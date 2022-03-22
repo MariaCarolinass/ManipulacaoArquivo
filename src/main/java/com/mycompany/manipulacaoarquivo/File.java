@@ -24,13 +24,14 @@ public class File {
                 if (!line.startsWith("H")) {
                     
                     // Atributos do arquivo organizados e trasformados em string
-                    String lineName = line.substring(1, 13);
-                    String pointNumber = line.substring(19, 25);
-                    String latitude = line.substring(25, 35);
-                    String longitude = line.substring(35, 46);
-                    String x = line.substring(46, 55);
-                    String y = line.substring(55, 64);
-                    String z = line.substring(64, 70);
+                    // trim() para eliminar os espaços
+                    String lineName = line.substring(1, 13).trim(); 
+                    String pointNumber = line.substring(19, 25).trim();
+                    String latitude = line.substring(25, 35).trim();
+                    String longitude = line.substring(35, 46).trim();
+                    String x = line.substring(46, 55).trim();
+                    String y = line.substring(55, 64).trim();
+                    String z = line.substring(64, 70).trim();
                     
                     // Atributos armazenados no vetor
                     String vector [] = {
