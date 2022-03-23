@@ -1,3 +1,7 @@
-# Manipulação de Arquivo
+# Manipulação de Arquivo com Java
 
-Manipulando um arquivo txt com Java
+Acessando itens de um documento txt de diferentes formas, usando:
+
+- Listas
+- Classes
+- Maps
