@@ -1,4 +1,4 @@
-package com.mycompany.manipulacaoarquivo;
+package file;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

@@ -1,2 +1,4 @@
-com/mycompany/manipulacaoarquivo/Main.class
-com/mycompany/manipulacaoarquivo/File.class
+com/mycompany/CoordinateClass/Coordinate.class
+file/File.class
+com/mycompany/CoordinateList/Coordinate.class
+main/Main.class

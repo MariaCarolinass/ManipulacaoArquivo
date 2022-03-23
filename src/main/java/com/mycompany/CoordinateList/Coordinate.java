@@ -1,24 +1,11 @@
-package com.mycompany.manipulacaoarquivo;
+package com.mycompany.CoordinateList;
 
-import java.io.IOException;
 import java.util.ArrayList;
 
-public class Main {
-
-    // Armazenando o documento txt em uma String e adicionando na lista
-    public static void main(String[] args) throws IOException {
-        
-        String path = "/Z/soarescarol/compartilhado/0294_POT_302_BOA_VISTA_2D.UKOOA.txt";
-        
-        ArrayList <String[]> attributes = File.reader(path);
-        
-        // Retornando as coordenadas
-        getCoordinate("0294-0181", "101", attributes);
-        
-    }
+public class Coordinate {
     
     // Pesquisando por coordenadas na lista
-    public static void getCoordinate(String lineName, String pointNumber, 
+    public static void getCoordinateList(String lineName, String pointNumber, 
             ArrayList <String[]> attributes) {
         
         // Percorrendo pela lista de atrihutos
@@ -43,5 +30,4 @@ public class Main {
         System.out.println("Coordenadas não encontradas!");
         
     }
-    
 }
