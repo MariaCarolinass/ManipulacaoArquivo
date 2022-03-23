@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class File {
+public class FileList {
     
     // Leitura do arquivo armazenado na lista
     public static ArrayList<String[]> reader(String path) throws IOException {
@@ -51,6 +51,3 @@ public class File {
     }
     
 }    
-        
-    
-    
