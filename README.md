@@ -1,4 +1,4 @@
-# Manipulação de Arquivo com Java
+# Manipulação de arquivo com Java
 
 Acessando itens de um documento txt de diferentes formas, usando:
 
