@@ -1,4 +1,5 @@
-com/mycompany/CoordinateClass/Coordinate.class
-file/File.class
-com/mycompany/CoordinateList/Coordinate.class
+com/mycompany/CoordinateList/CoordinateList.class
+com/mycompany/CoordinateClass/CoordinateClass.class
+file/FileList.class
+file/FileClass.class
 main/Main.class
