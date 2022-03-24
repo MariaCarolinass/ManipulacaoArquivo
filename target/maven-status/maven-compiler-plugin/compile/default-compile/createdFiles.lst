@@ -1,5 +1,7 @@
-com/mycompany/CoordinateList/CoordinateList.class
-com/mycompany/CoordinateClass/CoordinateClass.class
+coordinateclass/CoordinateClass.class
 file/FileList.class
+coordinatemap/CoordinateMap.class
 file/FileClass.class
+coordinatelist/CoordinateList.class
+file/FileMap.class
 main/Main.class
