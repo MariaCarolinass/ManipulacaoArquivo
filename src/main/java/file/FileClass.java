@@ -1,6 +1,6 @@
 package file;
 
-import com.mycompany.CoordinateClass.CoordinateClass;
+import coordinateclass.CoordinateClass;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;

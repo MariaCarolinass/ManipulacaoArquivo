@@ -1,7 +1,7 @@
 package main;
 
-import com.mycompany.CoordinateClass.CoordinateClass;
-import static com.mycompany.CoordinateClass.CoordinateClass.getCoordinateClass;
+import coordinateclass.CoordinateClass;
+import static coordinateclass.CoordinateClass.getCoordinateClass;
 import file.FileClass;
 import java.io.IOException;
 import java.util.ArrayList;

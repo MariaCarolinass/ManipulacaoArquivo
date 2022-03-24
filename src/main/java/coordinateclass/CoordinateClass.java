@@ -1,4 +1,4 @@
-package com.mycompany.CoordinateClass;
+package coordinateclass;
 
 import java.util.ArrayList;
 
