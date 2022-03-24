@@ -14,7 +14,6 @@ public class CoordinateClass {
     private Double z;
     
     // Construtor
-
     public CoordinateClass(String lineName, Integer pointNumber, String lat, 
             String lon, Double x, Double y, Double z) {
         this.lineName = lineName;
@@ -25,7 +24,6 @@ public class CoordinateClass {
         this.y = y;
         this.z = z;
     }
-    
     
     // Pesquisando por coordenadas utilizando classe
     public static void getCoordinateClass(String lineName, Integer pointNumber, 
